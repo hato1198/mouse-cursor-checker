@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffefea;
+    margin: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+.banner {
+    background-color: #902a3b;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* カーソルエリアのレイアウト（レスポンシブ対応） */
+.cursor-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+/* カーソルの適用エリア */
+.cursor-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    border: 2px solid #000;
+    background: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* 各カーソルの設定 */
+.default { cursor: auto; }             /* 通常の選択 */
+.help { cursor: help; }                /* ヘルプの選択 */
+.progress { cursor: progress; }        /* バックグラウンドで作業中 */
+.wait { cursor: wait; }                /* 待ち状態 */
+.crosshair { cursor: crosshair; }      /* 領域選択 */
+.text { cursor: text; }                /* テキスト選択 */
+.not-allowed { cursor: not-allowed; }  /* 利用不可 */
+.ns-resize { cursor: ns-resize; }      /* 上下に拡大/縮小 */
+.ew-resize { cursor: ew-resize; }      /* 左右に拡大/縮小 */
+.nesw-resize { cursor: nesw-resize; }  /* 斜めに拡大/縮小1 */
+.nwse-resize { cursor: nwse-resize; }  /* 斜めに拡大/縮小2 */
+.move { cursor: move; }                /* 移動 */
+.pointer { cursor: pointer; }          /* リンクの選択 */
