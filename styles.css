@@ -26,7 +26,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 15px;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 20px auto;
 }
 
@@ -56,5 +56,18 @@ h1 {
 .nwse-resize { cursor: nwse-resize; }  /* 斜めに拡大/縮小2 */
 .move { cursor: move; }                /* 移動 */
 .pointer { cursor: pointer; }          /* リンクの選択 */
+
+@media (min-width: 1300px) {
+
+    .cursor-container {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        max-width: 1500px;
+    }
+
+    .cursor-box {
+        height: 150px;
+        font-size: 16px;
+    }
+}
 
 /* 俺がしぐれういだ！ */
