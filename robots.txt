@@ -1,0 +1,6 @@
+# すべてのクローラーに対してサイト全体をクロール許可
+User-agent: *
+Disallow:
+
+# サイトマップの場所を指定
+Sitemap: https://hato1198.github.io/mouse-cursor-checker/sitemap.xml
