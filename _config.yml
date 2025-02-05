@@ -1,20 +1,15 @@
-# サイトの基本設定
-url: "https://hato1198.github.io"  # GitHub PagesのユーザーサイトURL
-baseurl: "/mouse-cursor-checker"  # サブディレクトリ名（プロジェクトサイトのURL）
+url: "https://hato1198.github.io"
+baseurl: "/mouse-cursor-checker"
 
-# サイトのメタ情報（SEOに影響）
-title: "マウスカーソル確認ツール"  # サイトタイトル
-description: "マウスカーソルの見た目をチェックできるシンプルなサイトです。"  # サイトの説明文（検索エンジンに表示される）
-author: "hato1198"  # サイト作成者の名前
+title: "マウスカーソル確認ツール"
+description: "マウスカーソルの見た目をチェックできるシンプルなサイトです。"
+author: "hato1198"
 
-# Jekyllのプラグイン設定
 plugins:
-  - jekyll-sitemap  # サイトマップを自動生成するプラグイン
-  - jekyll-seo-tag  # SEOタグ（metaタグ）を自動生成するプラグイン
-  
-# サイトマップ生成設定
-sitemap:
-  hostname: "https://hato1198.github.io/mouse-cursor-checker"  # サイトマップのホスト名を設定（Googleがサイトマップを正しく取得するため）
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-# タイムゾーン設定
-timezone: "Asia/Tokyo"  # タイムゾーン設定（日本の場合）
+sitemap:
+  hostname: "https://hato1198.github.io/mouse-cursor-checker"
+
+timezone: "Asia/Tokyo"
