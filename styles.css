@@ -11,6 +11,10 @@ h1 {
     padding: 20px;
 }
 
+.break-point {
+    display: inline-block;
+  }
+
 .banner {
     background-color: #902a3b;
     color: #ffffff;
@@ -18,7 +22,6 @@ h1 {
     font-weight: bold;
 }
 
-/* カーソルエリアのレイアウト（レスポンシブ対応） */
 .cursor-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -27,7 +30,6 @@ h1 {
     margin: 20px auto;
 }
 
-/* カーソルの適用エリア */
 .cursor-box {
     display: flex;
     align-items: center;
@@ -41,7 +43,6 @@ h1 {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* 各カーソルの設定 */
 .default { cursor: auto; }             /* 通常の選択 */
 .help { cursor: help; }                /* ヘルプの選択 */
 .progress { cursor: progress; }        /* バックグラウンドで作業中 */
