@@ -5,7 +5,7 @@ title: "マウスカーソル確認ツール"
 description: "マウスカーソルの見た目をチェックできるシンプルなサイトです。"
 author: "hato1198"
 
-plugins:
+whitelist:
   - jekyll-sitemap
   - jekyll-seo-tag
 
