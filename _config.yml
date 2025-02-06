@@ -9,6 +9,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+exclude:
+  - google7aa94270c7800c73.html
+
 sitemap:
   hostname: "https://hato1198.github.io/mouse-cursor-checker"
 
