@@ -1,5 +1,5 @@
-url: "https://hato1198.github.io"
-baseurl: "/mouse-cursor-checker/"
+url: "https://hato1198.github.io/"
+baseurl: "mouse-cursor-checker/"
 
 title: "マウスカーソル確認ツール"
 description: "マウスカーソルの見た目をチェックできるシンプルなサイトです。"
