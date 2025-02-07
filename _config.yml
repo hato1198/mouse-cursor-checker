@@ -1,5 +1,5 @@
-url: "https://hato1198.github.io"
-baseurl: "/mouse-cursor-checker"
+url: "https://hato1198.github.io/"
+baseurl: "mouse-cursor-checker/"
 
 title: "マウスカーソル確認ツール"
 description: "マウスカーソルの見た目をチェックできるシンプルなサイトです。"
@@ -10,6 +10,6 @@ plugins:
   - jekyll-seo-tag
 
 sitemap:
-  hostname: "https://hato1198.github.io/mouse-cursor-checker"
+  hostname: "https://hato1198.github.io/mouse-cursor-checker/"
 
 timezone: "Asia/Tokyo"
