@@ -10,6 +10,6 @@ plugins:
   - jekyll-seo-tag
 
 sitemap:
-  hostname: "https://hato1198.github.io/mouse-cursor-checker/"
+  hostname: "https://hato1198.github.io"
 
 timezone: "Asia/Tokyo"
