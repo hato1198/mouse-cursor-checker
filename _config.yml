@@ -14,7 +14,7 @@ twitter:
   username: "hato_1198"  # Twitterのユーザー名（省略可）
   card: "summary"  # Twitterカードのタイプ
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
