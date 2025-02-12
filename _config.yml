@@ -1,6 +1,5 @@
 url: "https://hato1198.github.io"
 baseurl: "/mouse-cursor-checker"
-image: "/assets/images/ogp.png"
 
 title: "マウスカーソル確認ツール"
 description: "13種類のマウスカーソルの見た目をWEB上で簡単にチェックできるサイトです。設定変更の確認に便利な無料ツールです。"
@@ -9,6 +8,7 @@ author: "hato1198"
 twitter:
   username: "hato_1198"  # Twitterのユーザー名
   card: "summary"  # Twitterカードのタイプ
+  image: "/assets/images/ogp.png"
 
 plugins:
   - jekyll-sitemap
