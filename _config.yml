@@ -13,9 +13,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-seo:
-  image: "https://hato1198.github.io/mouse-cursor-checker/assets/images/ogp.png"
-
 exclude:
   - google7aa94270c7800c73.html
 
