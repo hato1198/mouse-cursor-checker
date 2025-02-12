@@ -5,8 +5,7 @@ title: "マウスカーソル確認ツール"
 description: "13種類のマウスカーソルの見た目をWEB上で簡単にチェックできるサイトです。設定変更の確認に便利な無料ツールです。"
 author: "hato1198"
 
-seo:
-  image: "/assets/images/ogp.png"
+image: "/assets/images/ogp.png"
 
 twitter:
   username: "hato_1198"  # Twitterのユーザー名
