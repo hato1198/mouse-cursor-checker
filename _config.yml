@@ -6,8 +6,8 @@ description: "13種類のマウスカーソルの見た目をWEB上で簡単に�
 author: "hato1198"
 
 twitter:
-  username: "hato_1198"  # Twitterのユーザー名
-  card: "summary"  # Twitterカードのタイプ
+  username: "hato_1198"
+  card: "summary"
 
 plugins:
   - jekyll-sitemap
