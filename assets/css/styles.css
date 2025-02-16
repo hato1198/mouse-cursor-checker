@@ -68,6 +68,8 @@ h1{
   font-size: 16px;
   font-weight: 300;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative; /* 子要素（波紋）が絶対配置できるように */
+  overflow: hidden;   /* 波紋が枠外に飛び出さないように */
 }
 
 /* ホバー時の軽い持ち上がりエフェクト */
@@ -126,6 +128,29 @@ h1{
 /* リンクの選択 */
 .pointer {
   cursor: pointer;
+}
+
+/* 生成される波紋のスタイル */
+.ripple {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  pointer-events: none;
+  animation: ripple 1s ease-out;
+}
+
+@keyframes ripple {
+  from {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+  }
+  to {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+  }
 }
 
 /* 画面幅が広い場合の調整 */
