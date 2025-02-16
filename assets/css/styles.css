@@ -10,6 +10,18 @@ body {
   text-align: center;
 }
 
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s forwards;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* ヘッダーのスタイル */
 header {
   margin-bottom: 40px;
@@ -26,7 +38,7 @@ header .banner {
   font-weight: 300;
 }
 
-/* 改行用のクラス（そのまま） */
+/* 改行用のクラス*/
 .break-point {
   display: inline-block;
 }
