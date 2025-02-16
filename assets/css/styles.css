@@ -77,7 +77,7 @@ h1{
 }
 /* 通常の選択 */
 .default {
-  cursor: normal;
+  cursor: default;
 }
 /* ヘルプの選択 */
 .help {
