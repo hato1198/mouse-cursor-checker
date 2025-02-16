@@ -38,6 +38,10 @@ header .banner {
   font-weight: 300;
 }
 
+h1{
+  font-weight: 300;
+}
+
 /* 改行用のクラス*/
 .break-point {
   display: inline-block;
