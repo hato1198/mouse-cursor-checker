@@ -87,13 +87,14 @@ header .banner {
 .pointer { cursor: pointer; }          /* リンクの選択 */
 
 /* 画面幅が広い場合の調整 */
-@media (max-width: 650px) {
+@media (max-width: 600px) {
   .cursor-container {
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     max-width: 800px;
+    gap: 10px;
   }
   .cursor-box {
     height: 100px;
-    font-size: 14px;
+    font-size: 13px;
   }
 }
