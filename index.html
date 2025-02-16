@@ -1,52 +1,54 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://hato1198.github.io/mouse-cursor-checker/assets/images/favicon.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" href="https://hato1198.github.io/mouse-cursor-checker/assets/images/favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <title>マウスカーソルチェックツール</title>
-    <meta name="generator" content="Jekyll v3.10.0" />
-    <meta property="og:title" content="マウスカーソルチェックツール" />
-    <meta name="author" content="hato1198" />
-    <meta property="og:locale" content="en_US" />
-    <meta name="description" content="13種類のマウスカーソルの見た目をWEB上で簡単にチェックできるサイトです。設定変更の確認に便利な無料ツールです。" />
-    <meta property="og:description" content="13種類のマウスカーソルの見た目をWEB上で簡単にチェックできるサイトです。設定変更の確認に便利な無料ツールです。" />
-    <link rel="canonical" href="https://hato1198.github.io/mouse-cursor-checker/" />
-    <meta property="og:url" content="https://hato1198.github.io/mouse-cursor-checker/" />
-    <meta property="og:site_name" content="マウスカーソルチェックツール" />
-    <meta property="og:image" content="https://hato1198.github.io/mouse-cursor-checker/assets/images/ogp.png" />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary" />
-    <meta property="twitter:image" content="https://hato1198.github.io/mouse-cursor-checker/assets/images/ogp.png" />
-    <meta property="twitter:title" content="マウスカーソルチェックツール" />
-    <meta name="twitter:site" content="@hato_1198" />
-    <meta name="twitter:creator" content="@hato1198" />
-    <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"hato1198"},"description":"13種類のマウスカーソルの見た目をWEB上で簡単にチェックできるサイトです。設定変更の確認に便利な無料ツールです。","headline":"マウスカーソル確認ツール","image":"https://hato1198.github.io/mouse-cursor-checker/assets/images/ogp.png","name":"マウスカーソル確認ツール","url":"https://hato1198.github.io/mouse-cursor-checker/"}</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://hato1198.github.io/mouse-cursor-checker/assets/images/favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="https://hato1198.github.io/mouse-cursor-checker/assets/images/favicon.ico" type="image/x-icon"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>マウスカーソルチェックツール</title>
+  <meta name="generator" content="Jekyll v3.10.0" />
+  <meta property="og:title" content="マウスカーソルチェックツール" />
+  <meta name="author" content="hato1198" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="description" content="13種類のマウスカーソルの見た目をWEB上で簡単にチェックできるサイトです。設定変更の確認に便利な無料ツールです。" />
+  <meta property="og:description" content="13種類のマウスカーソルの見た目をWEB上で簡単にチェックできるサイトです。設定変更の確認に便利な無料ツールです。" />
+  <link rel="canonical" href="https://hato1198.github.io/mouse-cursor-checker/" />
+  <meta property="og:url" content="https://hato1198.github.io/mouse-cursor-checker/" />
+  <meta property="og:site_name" content="マウスカーソルチェックツール" />
+  <meta property="og:image" content="https://hato1198.github.io/mouse-cursor-checker/assets/images/ogp.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="twitter:image" content="https://hato1198.github.io/mouse-cursor-checker/assets/images/ogp.png" />
+  <meta property="twitter:title" content="マウスカーソルチェックツール" />
+  <meta name="twitter:site" content="@hato_1198" />
+  <meta name="twitter:creator" content="@hato1198" />
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"hato1198"},"description":"13種類のマウスカーソルの見た目をWEB上で簡単にチェックできるサイトです。設定変更の確認に便利な無料ツールです。","headline":"マウスカーソル確認ツール","image":"https://hato1198.github.io/mouse-cursor-checker/assets/images/ogp.png","name":"マウスカーソル確認ツール","url":"https://hato1198.github.io/mouse-cursor-checker/"}
+  </script>
 </head>
 <!-- ういうい -->
 <body>
-    <header>
-        <h1 class="banner">マウスカーソル<span class="break-point">チェックツール</span></h1>
-        <div class="banner">マウスカーソルの見た目を<span class="break-point">確認できます。</span></div>
-    </header>
+  <header>
+    <h1 class="banner">マウスカーソル<span class="break-point">チェックツール</span></h1>
+    <div class="banner">マウスカーソルの見た目を<span class="break-point">確認できます。</span></div>
+  </header>
 
-    <div class="cursor-container">
-        <div class="cursor-box default">通常の選択</div>
-        <div class="cursor-box help">ヘルプの選択</div>
-        <div class="cursor-box progress">バックグラウンドで作業中</div>
-        <div class="cursor-box wait">待ち状態</div>
-        <div class="cursor-box crosshair">領域選択</div>
-        <div class="cursor-box text">テキスト選択</div>
-        <div class="cursor-box not-allowed">利用不可</div>
-        <div class="cursor-box ns-resize">上下に拡大/縮小</div>
-        <div class="cursor-box ew-resize">左右に拡大/縮小</div>
-        <div class="cursor-box nesw-resize">斜めに拡大/縮小1</div>
-        <div class="cursor-box nwse-resize">斜めに拡大/縮小2</div>
-        <div class="cursor-box move">移動</div>
-        <div class="cursor-box pointer">リンクの選択</div>
-    </div>
+  <div class="cursor-container">
+    <div class="cursor-box default">通常の選択</div>
+    <div class="cursor-box help">ヘルプの選択</div>
+    <div class="cursor-box progress">バックグラウンドで作業中</div>
+    <div class="cursor-box wait">待ち状態</div>
+    <div class="cursor-box crosshair">領域選択</div>
+    <div class="cursor-box text">テキスト選択</div>
+    <div class="cursor-box not-allowed">利用不可</div>
+    <div class="cursor-box ns-resize">上下に拡大/縮小</div>
+    <div class="cursor-box ew-resize">左右に拡大/縮小</div>
+    <div class="cursor-box nesw-resize">斜めに拡大/縮小1</div>
+    <div class="cursor-box nwse-resize">斜めに拡大/縮小2</div>
+    <div class="cursor-box move">移動</div>
+    <div class="cursor-box pointer">リンクの選択</div>
+  </div>
 </body>
 </html>
