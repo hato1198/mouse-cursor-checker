@@ -1,46 +1,63 @@
+/* Montserratフォントの利用 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #ffefea;
-    margin: 20px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
 }
 
-h1 {
-    color: #ffffff;
-    margin: 0;
-    padding: 20px;
+/* ヘッダーのスタイル */
+header {
+  margin-bottom: 40px;
 }
 
+header .banner {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-weight: 300;
+}
+
+/* 改行用のクラス（そのまま） */
 .break-point {
-    display: inline-block;
-  }
-
-.banner {
-    background-color: #902a3b;
-    color: #ffffff;
-    padding: 10px;
-    font-weight: bold;
+  display: inline-block;
 }
 
+/* カーソルチェック枠のコンテナ（グリッドレイアウト） */
 .cursor-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 15px;
-    max-width: 1000px;
-    margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
+/* 各カーソルボックスのスタイル */
 .cursor-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100px;
-    border: 2px solid #000;
-    background: #fff;
-    font-size: 14px;
-    font-weight: bold;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-size: 14px;
+  font-weight: 300;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* ホバー時の軽い持ち上がりエフェクト */
+.cursor-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .default { cursor: auto; }             /* 通常の選択 */
@@ -57,17 +74,14 @@ h1 {
 .move { cursor: move; }                /* 移動 */
 .pointer { cursor: pointer; }          /* リンクの選択 */
 
+/* 画面幅が広い場合の調整 */
 @media (min-width: 1300px) {
-
-    .cursor-container {
-        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-        max-width: 1500px;
-    }
-
-    .cursor-box {
-        height: 150px;
-        font-size: 16px;
-    }
+  .cursor-container {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    max-width: 1500px;
+  }
+  .cursor-box {
+    height: 150px;
+    font-size: 16px;
+  }
 }
-
-/* ういうい */
