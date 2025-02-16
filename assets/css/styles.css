@@ -1,8 +1,8 @@
-/* Montserratフォントの利用 */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+/* Noto Sans JPフォントの利用 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500&display=swap');
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   background-color: #f5f5f5;
   color: #333;
   margin: 0;
