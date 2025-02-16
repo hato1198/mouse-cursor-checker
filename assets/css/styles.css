@@ -71,34 +71,71 @@ header .banner {
   transform: translateY(-3px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
-
-.cursor-box:nth-child(1) { animation-delay: 0.2s; }
-.cursor-box:nth-child(2) { animation-delay: 0.3s; }
-.cursor-box:nth-child(3) { animation-delay: 0.4s; }
-.cursor-box:nth-child(4) { animation-delay: 0.5s; }
-.cursor-box:nth-child(5) { animation-delay: 0.6s; }
-.cursor-box:nth-child(6) { animation-delay: 0.7s; }
-.cursor-box:nth-child(7) { animation-delay: 0.8s; }
-.cursor-box:nth-child(8) { animation-delay: 0.9s; }
-.cursor-box:nth-child(9) { animation-delay: 1.0s; }
-.cursor-box:nth-child(10) { animation-delay: 1.1s; }
-.cursor-box:nth-child(11) { animation-delay: 1.2s; }
-.cursor-box:nth-child(12) { animation-delay: 1.3s; }
-.cursor-box:nth-child(13) { animation-delay: 1.4s; }
-
-.default { cursor: auto; }             /* 通常の選択 */
-.help { cursor: help; }                /* ヘルプの選択 */
-.progress { cursor: progress; }        /* バックグラウンドで作業中 */
-.wait { cursor: wait; }                /* 待ち状態 */
-.crosshair { cursor: crosshair; }      /* 領域選択 */
-.text { cursor: text; }                /* テキスト選択 */
-.not-allowed { cursor: not-allowed; }  /* 利用不可 */
-.ns-resize { cursor: ns-resize; }      /* 上下に拡大/縮小 */
-.ew-resize { cursor: ew-resize; }      /* 左右に拡大/縮小 */
-.nesw-resize { cursor: nesw-resize; }  /* 斜めに拡大/縮小1 */
-.nwse-resize { cursor: nwse-resize; }  /* 斜めに拡大/縮小2 */
-.move { cursor: move; }                /* 移動 */
-.pointer { cursor: pointer; }          /* リンクの選択 */
+/* 通常の選択 */
+.default {
+  cursor: auto;
+  animation-delay: 0.2s;
+}
+/* ヘルプの選択 */
+.help {
+  cursor: help;
+  animation-delay: 0.3s;
+}
+/* バックグラウンドで作業中 */
+.progress {
+  cursor: progress;
+  animation-delay: 0.4s;
+}
+/* 待ち状態 */
+.wait {
+  cursor: wait;
+  animation-delay: 0.5s;
+}
+/* 領域選択 */
+.crosshair {
+  cursor: crosshair;
+  animation-delay: 0.6s;
+}
+/* テキスト選択 */
+.text {
+  cursor: text;
+  animation-delay: 0.7s;
+}
+/* 利用不可 */
+.not-allowed {
+  cursor: not-allowed;
+  animation-delay: 0.8s;
+}
+/* 上下に拡大/縮小 */
+.ns-resize {
+  cursor: ns-resize;
+  animation-delay: 0.9s;
+}
+/* 左右に拡大/縮小 */
+.ew-resize {
+  cursor: ew-resize;
+  animation-delay: 1.0s;
+}
+/* 斜めに拡大/縮小1 */
+.nesw-resize {
+  cursor: nesw-resize;
+  animation-delay: 1.1s;
+}
+/* 斜めに拡大/縮小2 */
+.nwse-resize {
+  cursor: nwse-resize;
+  animation-delay: 1.2s;
+}
+/* 移動 */
+.move {
+  cursor: move;
+  animation-delay: 1.3s;
+}
+/* リンクの選択 */
+.pointer {
+  cursor: pointer;
+  animation-delay: 1.4s;
+}
 
 /* 画面幅が広い場合の調整 */
 @media (max-width: 600px) {
