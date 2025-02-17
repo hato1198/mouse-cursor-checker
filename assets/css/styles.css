@@ -84,10 +84,10 @@ p{
   overflow: hidden;   /* 波紋が枠外に飛び出さないように */
 }
 
-/* ホバー時の軽い持ち上がりエフェクト */
+/* ホバー時の軽い下がりエフェクト */
 .cursor-box:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transform: translateY(3px);
+  box-shadow: none;
 }
 /* 通常の選択 */
 .default {
